@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <p class="headerP">The 808 Encryptor</p>
+        </div>
+    </header>
+
+    <div class="functional">
+        <div class="encryption box">
+            <p class="title">Encryption</p>
+            <textarea name="enter" id="enField" class="textFields" placeholder="Enter text here!"></textarea>
+            <textarea name="enter" id="enKeyField" class="keyText" placeholder="Key!"></textarea>
+            <div id="enInteractDiv">
+                <button class="button" id="enButton">Encrypt</button>
+                <label for="checkbox">Enter own key</label>
+                <input type="checkbox" class="toggleKey" id="customKey">
+            </div>
+        </div>
+    
+        <div class="decryption box">
+            <p class="title">Decryption</p>
+            <textarea name="enter" id="decField" class="textFields" placeholder="Enter here to decrypt!"></textarea>
+            <textarea name="enter" id="decKeyField" class="keyText" placeholder="Enter key here!"></textarea>
+            <div id="decInteractDiv">
+                <button class="button" id="decButton">Decrypt</button>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
